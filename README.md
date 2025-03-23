@@ -92,14 +92,43 @@ This architecture proposes the following features, which would need to be valida
    - Clear error messages for users
    - Graceful fallback to defaults
 
-## Implementation Considerations
+## Architecture Improvements
 
-This conceptual architecture would require:
+This proof of concept demonstrates architectural improvements through:
 
-1. Installation of dependencies like streamlit, pandas, numpy, and pyyaml
-2. Testing in production-like environments to validate the design
-3. Performance testing with realistic data volumes
-4. Security review before deployment to production
+1. **Design Patterns Implementation**
+   - Factory Pattern for model creation
+   - Strategy Pattern for scoring algorithms
+   - Repository Pattern for data access
+
+2. **Enhanced Modularity**
+   - Clear separation of concerns
+   - Well-defined interfaces
+   - Dependency injection
+
+3. **Improved Configuration Management**
+   - Externalized configuration
+   - Environment-specific settings (structure in place)
+   - Configuration validation
+
+## Future Enhancements (Not Implemented in PoC)
+
+The following components are designed but not implemented in this proof of concept:
+
+1. **API Layer**
+   - RESTful API design for microservice communication
+   - Pydantic models for request/response validation
+   - Error handling middleware
+
+2. **Testing Framework**
+   - Unit tests for components
+   - Integration tests for workflows
+   - Mock objects for dependencies
+
+3. **Node.js Integration**
+   - Scoring bridge for Node.js communication
+   - Error handling and retries
+   - Caching mechanisms
 
 ## Notes
 

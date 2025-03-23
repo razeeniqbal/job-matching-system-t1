@@ -1,6 +1,18 @@
 # Job Matching System - Enhanced Architecture
 
-This repository contains a conceptual implementation of a job matching system designed for improved maintainability, scalability, and extensibility. This architecture represents a proposed solution that would need further testing and validation in a real-world environment.
+A modular job matching system that quantitatively scores candidate-job fit based on weighted skills, experience, education, and certification criteria.
+
+This repository contains a conceptual implementation designed for improved maintainability, scalability, and extensibility. This architecture represents a proposed solution that would need further testing and validation in a real-world environment.
+
+## Live Demo
+
+A proof of concept is available at: [https://job-matching-system-t1.streamlit.app/](https://job-matching-system-t1.streamlit.app/)
+
+## Architecture
+
+The system follows a modular process flow as illustrated in the diagram below:
+
+![Architecture Diagram](architecture.png)
 
 ## Project Overview
 

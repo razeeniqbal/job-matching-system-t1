@@ -1,0 +1,32 @@
+[
+  {
+    "job_app_id": 201,
+    "job_requirements": {
+      "core_skills": ["Python", "Machine Learning", "SQL"],
+      "min_experience": 3,
+      "education": "Bachelor's",
+      "certifications": ["AWS Certified"]
+    },
+    "talent_profile": {
+      "skills": ["Python", "Machine Learning", "Deep Learning", "SQL"],
+      "experience": 4,
+      "education": "Master's",
+      "certifications": ["AWS Certified", "Google Cloud Certified"]
+    }
+  },
+  {
+    "job_app_id": 202,
+    "job_requirements": {
+      "core_skills": ["Java", "Spring Boot", "Microservices"],
+      "min_experience": 5,
+      "education": "Bachelor's",
+      "certifications": ["Oracle Java Certified"]
+    },
+    "talent_profile": {
+      "skills": ["Java", "Spring Boot", "Microservices", "Kafka"],
+      "experience": 3,
+      "education": "Diploma",
+      "certifications": ["Oracle Java Certified"]
+    }
+  }
+]
